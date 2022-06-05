@@ -1,0 +1,75 @@
+header{
+    height: auto;
+    padding-top: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.header-container{
+    text-align: center;
+    height:100%;
+    position:relative;
+}
+
+/* ======> LinkButtons (cta) <===== */
+.cta{
+    margin-top: 2.5rem ;
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+}
+/* ======> HeaderSocials <===== */
+
+.header-socials {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+.header-socials::after{
+    content: "";
+    width:1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+/* =======> img <===== */
+.me{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    width:30% ;
+    margin: 0 auto ;
+    margin-top: 6rem;
+    padding:20px;
+    border-radius:43% 42% 0% 54% / 51% 49% 52% 50% 
+}
+
+/* ========> Scroll Down <====== */
+.scroll-down{
+    position:absolute;
+    right:-2.3rem;
+    bottom:5rem;
+    transform:rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+/* =====> media query-medium <===== */
+@media screen and (max-width:1024px) {
+   .me{
+       width:50%;
+   }
+}
+/* =====> media query-small <===== */
+@media screen and (max-width:600px) {
+    .me{
+        width:80%;
+    }
+    .header-socials,
+    .scroll-down{
+        display: none;
+    }
+}
