@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-cards">
                         <article className='about-card'>
-                            <FaAward/>
+                            <FaAward className='about-icon' />
                             <h5>Experience</h5>
                             <small>2+ Years Working</small>
                         </article>
@@ -36,7 +36,8 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis provident at eum nesciunt esse nam harum, ad tenetur facilis et exercitationem quos assumenda sit quo ullam ratione veniam, minima officia enim? Optio eaque ut, vero ipsum deleniti iure repudiandae amet veniam porro. Sed iure fugiat modi consequatur id commodi?
+                        Hey, I'm Kaies Mahmud Nehal. I am JavaScript Developer. I'm learning JavaScript for 2years and understanding Data Structure and Algorithm, Object Oriented Javascript, Es6 syntax, Methods, Promises, Fetching Data etc.
+                         Programming is my passion. I've also learned React for frontend development and Nodejs, expressjs, Mongodb for backend .
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
